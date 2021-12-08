@@ -22,7 +22,13 @@
   95% { --timer: 1; }
   100% { --timer: 0; }
 }
-
+.play-again {
+background: white;
+    color: black;
+    padding: 0.5em 1em;
+    font-size: 2.5em;
+    font-weight: 700;
+}
 #timer,
 #moles {
   position: absolute;
