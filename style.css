@@ -108,6 +108,7 @@ background: white;
 
 #board > div {
   position: relative;
+  transform-style: preserve-3d;
   width: 18vmin;
   height: 18vmin;
   border-radius: 50%;
@@ -139,7 +140,7 @@ box-shadow: inset -1.5vmin -1vmin black, inset 1.5vmin -1vmin black, inset 0 0 0
   height: 0%;
   overflow: hidden;
   transform-origin: bottom center;
-  transform: translateY(-50%) rotateX(360deg);
+  transform: translateY(-50%) rotateX(-60deg);
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='none' stroke='black' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'><path fill='brown' d='M 4,102 C 13,62 20,5 47,7 73,8 86,47 95,102' /><path d='M 53,62 C 53,62 53,79 53,79' /><path d='M 27,88 C 41,75 68,77 75,88' /><path fill='%23eeee66' d='M 42,82 C 47,80 59,80 62,81 66,82 63,93 63,93 63,93 53,94 53,92 53,90 52,80 52,80 52,80 53,92 53,92 53,92 43,94 42,92 42,90 41,82 41,82 Z' /><path fill='%23ffffee' d='M 50,53 C 67,72 91,63 88,38 84,13 56,11 48,36 44,21 20,24 18,41 16,57 37,71 50,53' /><circle r='2' cx='35' cy='42' fill='%23000' /><circle r='4' cx='65' cy='41' fill='%23000' /><ellipse rx='10' ry='5' cx='52' cy='56' fill='%23000' /></g></svg>");
   animation: moleShow 20s linear 2;
   animation-fill-mode: forwards;
